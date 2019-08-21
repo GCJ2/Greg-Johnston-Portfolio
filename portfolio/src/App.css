@@ -1,5 +1,6 @@
 /* .App {
-  margin: 10px;
+
+  margin: auto;
 } */
 
 .App-logo {
@@ -32,6 +33,12 @@
   }
 }
 
+.main-content {
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+
 .links * {
   margin: 10px;
 }
@@ -40,16 +47,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  padding: 10px;
 }
 
 .nav-items {
   list-style: none;
   display: flex;
+  flex-direction: column;
 }
 
 .nav-items li {
-  padding: 5px
+  padding: 5px;
+  cursor: pointer;
 }
 
 .welcome-container {
@@ -69,7 +78,10 @@
 
 .profile-picture {
   width: 130px;
-
   border: 1px solid #EDF0F2;
   padding: 10px;
+}
+
+.contact-list {
+  list-style: none;
 }
