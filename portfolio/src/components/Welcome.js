@@ -3,7 +3,8 @@ import React from 'react'
 const Welcome = (props) => {
 return(
   <div>
-    <p>Welcome text goes here</p>
+    <h2>Greg Johnston</h2>
+    <p>Lambda School Student and Composer</p>
   </div>
   )
 }
