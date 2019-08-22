@@ -6,10 +6,9 @@ return(
   <div className ="nav">
     <h2>GREG JOHNSTON</h2>
     <ul className="nav-items">
-      <li>nav 1</li>
-      <li>nav 2</li>
-      <li>nav 3</li>
-      <li>nav 4</li>
+      <li>PROJECTS</li>
+      <li>COMPOSITIONS</li>
+      <li>CONTACT</li>
     </ul>
   </div>
   // <div>

@@ -1,6 +1,7 @@
-.App {
-  margin: 10px;
-}
+/* .App {
+
+  margin: auto;
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -32,6 +33,12 @@
   }
 }
 
+.main-content {
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+
 .links * {
   margin: 10px;
 }
@@ -40,14 +47,41 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  padding: 10px;
 }
 
 .nav-items {
   list-style: none;
   display: flex;
+  flex-direction: column;
 }
 
 .nav-items li {
-  padding: 5px
+  padding: 5px;
+  cursor: pointer;
+}
+
+.welcome-container {
+  border-top: 1px solid #EDF0F2;
+  border-bottom: 1px solid #EDF0F2;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  background-color: #F5F8FA;
+}
+
+.profile-wrapper {
+  border: 1px solid #EDF0F2;
+  display: inline-block;
+  background: white;
+}
+
+.profile-picture {
+  width: 130px;
+  border: 1px solid #EDF0F2;
+  padding: 10px;
+}
+
+.contact-list {
+  list-style: none;
 }
